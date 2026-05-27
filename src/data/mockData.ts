@@ -5,46 +5,18 @@ export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
     id: 'entry-1',
     title: 'The Decision: Choosing Conscious Growth',
     date: '2026-05-19',
-    content: 'Today marks a turning point. I realized I have been drifting, letting algorithms and convenience dictate my mood and schedule. I wake up tired, scroll for an hour, work with scattered focus, and repeat. I want to build a version of myself that is present, disciplined, and compassionate. My primary goal is not perfection, but awareness. I will write here daily, log my habits, and speak honestly to myself.',
+    content: `The real question of, I think, most people suffering from a breakup is: How can you forgive yourself for ruining something good? My real answer to that is forgiveness is not something you can just give. It is something related to acceptance. When you committed a sin against someone, your friend, your parents, or your partner, you need to realize the fact that it has consequences and sometimes it depends on how heavy the sins you committed to that someone are. You should not deny the fact that all mistakes have equal consequences, and this might ruin something good. For my situation, it was my relationship. So now, let's imagine that that mistake really ruined something and now you are asking for forgiveness, not from her because it was already ruined, but from yourself. The best thing you can do is to accept it, accept the fact that you have committed it and the reality that it ruined something good. And when I say accept it, I'm not telling you to always tell yourself that "Ahh, I accepted it, I can't do anything about it." For me, accepting also comes with effort. Let's imagine 2 scenarios here, number 1: you can still talk to the person that you have sinned against, number 2: he/she completely cut you off. If you're in situation number 1, then you still have a big chance to reconnect with the person you have sinned against, but if you are in situation number 2 just like me and the majority of people, these are the things you should do.
+
+CHANGE YOURSELF. In my situation, this is the most confusing one. During the first 1-3 weeks of our breakup, I always blamed myself, blaming and blaming until my mind gave up, but nothing changed. I was still the man from before. I didn't make any progress, which is disappointing. You need to break that cycle because in that way you are proving to the person and to yourself that you are still the same scumbag as before, and also in that way you cannot forgive yourself more. In a situation like this, most people already know the mistakes they made, and since they know their mistakes, they know where to improve and where to change. Improve and change yourself, because what is done is done. You cannot change the past. You can do something in the present, and you can change your future. Forgive yourself by changing the old you. Forgive yourself for ruining something good by improving yourself. DO NOT BECOME STAGNANT. Do not blame yourself every day because that will do nothing. It will only sink you deeper into your negative thoughts and will lead you to the most dangerous part of life, and that is hating yourself.
+
+CHANGE YOUR PERSPECTIVE. The brain is the most powerful organ in your body. It is the organ that controls everything, including your thoughts and feelings. Another way to forgive yourself is to change your perspective. For the past weeks, as I've said in the statement above, I always blamed myself, but after changing my perspective, everything changed. For example, I always told myself everything happens for a reason, that everything happened because it will change something between the both of us. I will tell you this, after a breakup I realized the parts where I need to change. I realized the parts where I was lacking and the parts of myself that I need to improve. After adapting to that mindset, I am slowly accepting the reason why she left. I understand her fully now, and those "whys" in my mind are slowly fading. I am not saying that leaving someone is okay, but I believe there are some points in life where you need to realize and understand that everything happens for a reason.
+
+LOVE YOURSELF. The last and most important thing in your journey of forgiving yourself is to love yourself. When you are going through a fresh breakup, you won't feel any love for yourself yet, especially if you are the one who got left, but after you learn to love yourself, you will realize how beautiful life is. So how can you love yourself? In my situation, I loved my Celam more than I loved anyone, even more than my family. I put all the love I gave to her back into myself, and I can say I am still not doing it fully, but I am making progress. In this state, you will realize how that breakup changed you in a good way and how that breakup helped you improve something within yourself that you didn't discover until it happened. DO NOT HATE YOURSELF. If you ever feel like hating yourself, then stop because the only relationship that is guaranteed to stay with you at the end is the relationship you have with yourself (and God, of course). So stop hating yourself and love yourself more. Stop blaming yourself and try changing yourself, and most importantly, improve yourself because you cannot do anything about what already happened, but you can do something about what is about to happen.
+
+What is meant for you is meant for you. It will always find a way.`,
     mood: 2,
     moodEmoji: '🌱',
     moodLabel: 'Growing pains',
-    tags: [],
-    prompts: [],
-    coverImage: ''
-  },
-  {
-    id: 'entry-2',
-    title: 'Overcoming the First Slump',
-    date: '2026-05-21',
-    content: 'Missed my morning routine today. I stayed up too late reading a thriller on my tablet and ignored my alarm. Immediately, the old critical voice started: "Here we go again, you cannot even last three days." Instead of spiraling, I took a deep breath, went for a short walk, and wrote. I realized that self-improvement is not a straight line. The fact that I am noticing the slip-up without completely giving up is already progress.',
-    mood: 3,
-    moodEmoji: '☁️',
-    moodLabel: 'Neutral / Reflective',
-    tags: [],
-    prompts: [],
-    coverImage: ''
-  },
-  {
-    id: 'entry-3',
-    title: 'A Breakthrough in Active Listening',
-    date: '2026-05-24',
-    content: 'Had a tense meeting with Sarah at work. Usually, when she criticizes my design templates, I immediately get defensive and start formulating an argument. Today, I remembered my intention of practicing emotional intelligence. I stopped, took a deep breath, and focused entirely on understanding her perspective. I asked: "So you are worried that this layout might confuse non-technical users?" Her face immediately softened. We collaborated and found a better solution together in 10 minutes. It felt incredible to choose connection over ego.',
-    mood: 5,
-    moodEmoji: '☀️',
-    moodLabel: 'Thriving',
-    tags: [],
-    prompts: [],
-    coverImage: ''
-  },
-  {
-    id: 'entry-4',
-    title: 'The Compound Power of Small Wins',
-    date: '2026-05-26',
-    content: 'Reflecting on the last week. Looking at my habit tracker, I\'ve hit my digital detox goal 8 days in a row. The results are undeniable: I am falling asleep within 15 minutes, my mind feels quiet in the evening, and my morning headaches are gone. It is a tiny change—just putting the phone in the living room—but its ripple effects are massive. Self-improvement isn\'t about overnight transformations; it\'s about small, seemingly boring habits compounding over time.',
-    mood: 4,
-    moodEmoji: '🌟',
-    moodLabel: 'Focused & Grateful',
     tags: [],
     prompts: [],
     coverImage: ''

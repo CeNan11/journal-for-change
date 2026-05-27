@@ -4,6 +4,7 @@ import JournalList from './components/JournalList';
 import JournalDetail from './components/JournalDetail';
 import type { JournalEntry } from './types';
 import { INITIAL_JOURNAL_ENTRIES } from './data/mockData';
+import { notifyTelegram } from './components/notify';
 
 export default function App() {
   const [entries] = useState<JournalEntry[]>(() => {
@@ -66,6 +67,12 @@ export default function App() {
     setSelectedEntryId(null);
   };
 
+  const handleSelectEntry = (id: string) => {
+    const entry = entries.find(e => e.id === id);
+    if (entry) notifyTelegram(entry.title);
+    setSelectedEntryId(id);
+  };
+
   const renderMainContent = () => {
     if (selectedEntryId) {
       const selectedEntry = entries.find(e => e.id === selectedEntryId);
@@ -82,7 +89,7 @@ export default function App() {
     return (
       <JournalList
         entries={entries}
-        onSelectEntry={setSelectedEntryId}
+        onSelectEntry={handleSelectEntry}
         onLock={handleLock}
       />
     );
