@@ -108,9 +108,6 @@ export default function App() {
 
         <div className={`glass-panel max-w-sm w-full p-10 flex flex-col items-center gap-10 relative z-10 animate-fade-in ${isShaking ? 'animate-shake' : ''}`}>
           <div className="flex flex-col items-center gap-4 text-center">
-            <div className="p-4 rounded-2xl bg-white/5 border border-white/10 shadow-[0_0_30px_rgba(37,99,235,0.15)]">
-              <Icons.Fingerprint className="h-8 w-8 text-[#7DD3FC]" />
-            </div>
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-gradient mb-1">
                 Ma Femme's Birthday
