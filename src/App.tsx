@@ -6,7 +6,7 @@ import type { JournalEntry } from './types';
 import { INITIAL_JOURNAL_ENTRIES } from './data/mockData';
 
 export default function App() {
-  const [entries, setEntries] = useState<JournalEntry[]>(() => {
+  const [entries] = useState<JournalEntry[]>(() => {
     const saved = localStorage.getItem('ascent_journal_entries');
     if (saved) {
       try {

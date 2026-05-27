@@ -1,43 +1,4 @@
-import type { JournalEntry, Habit, DailyReflectionPrompt } from '../types';
-
-export const INITIAL_HABITS: Habit[] = [
-  {
-    id: 'habit-1',
-    name: 'Mindful Meditation',
-    description: '10 minutes of silent breath observation or guided mindfulness.',
-    streak: 6,
-    completedDates: ['2026-05-21', '2026-05-22', '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26'],
-    category: 'Mind',
-    icon: 'Brain'
-  },
-  {
-    id: 'habit-2',
-    name: 'Physical Vitality',
-    description: 'At least 30 minutes of intentional movement (running, yoga, lifting).',
-    streak: 3,
-    completedDates: ['2026-05-22', '2026-05-24', '2026-05-25', '2026-05-26'],
-    category: 'Body',
-    icon: 'Activity'
-  },
-  {
-    id: 'habit-3',
-    name: 'Digital Detox in Bed',
-    description: 'No screens/phone usage in bed after 10:00 PM. Read a physical book instead.',
-    streak: 8,
-    completedDates: ['2026-05-19', '2026-05-20', '2026-05-21', '2026-05-22', '2026-05-23', '2026-05-24', '2026-05-25', '2026-05-26'],
-    category: 'Routine',
-    icon: 'Moon'
-  },
-  {
-    id: 'habit-4',
-    name: 'Acts of Kindness',
-    description: 'Do or say one genuinely kind/supportive thing for someone else.',
-    streak: 2,
-    completedDates: ['2026-05-23', '2026-05-25', '2026-05-26'],
-    category: 'Soul',
-    icon: 'Heart'
-  }
-];
+import type { JournalEntry } from '../types';
 
 export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
   {
@@ -48,18 +9,9 @@ export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
     mood: 2,
     moodEmoji: '🌱',
     moodLabel: 'Growing pains',
-    tags: ['Mindset', 'Beginnings', 'Intentions'],
-    prompts: [
-      {
-        question: 'What triggered the desire for change today?',
-        answer: 'Waking up feeling completely depleted after scrolling on my phone until 1:00 AM, realizing I spent my entire weekend doing nothing of value.'
-      },
-      {
-        question: 'What is one promise you are making to yourself?',
-        answer: 'To forgive my mistakes, but never stop reflecting and adjusting.'
-      }
-    ],
-    coverImage: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=800&q=80'
+    tags: [],
+    prompts: [],
+    coverImage: ''
   },
   {
     id: 'entry-2',
@@ -69,18 +21,9 @@ export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
     mood: 3,
     moodEmoji: '☁️',
     moodLabel: 'Neutral / Reflective',
-    tags: ['Self-Compassion', 'Resilience', 'Habits'],
-    prompts: [
-      {
-        question: 'What went wrong and how can you adjust?',
-        answer: 'I left my tablet on my nightstand. From tonight, I will charge all screens in the living room and use a physical alarm clock.'
-      },
-      {
-        question: 'What is one small victory from today?',
-        answer: 'I didn\'t let my bad morning ruin my entire afternoon. I ate a healthy lunch and focused well at work.'
-      }
-    ],
-    coverImage: 'https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?auto=format&fit=crop&w=800&q=80'
+    tags: [],
+    prompts: [],
+    coverImage: ''
   },
   {
     id: 'entry-3',
@@ -90,18 +33,9 @@ export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
     mood: 5,
     moodEmoji: '☀️',
     moodLabel: 'Thriving',
-    tags: ['Relationships', 'Communication', 'Ego'],
-    prompts: [
-      {
-        question: 'How did you show up differently in a challenging moment?',
-        answer: 'I listened to understand rather than to reply. I kept my breath steady and my voice calm.'
-      },
-      {
-        question: 'What did this teach you about others?',
-        answer: 'Most defensiveness from others melts away when they feel heard and respected.'
-      }
-    ],
-    coverImage: 'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80'
+    tags: [],
+    prompts: [],
+    coverImage: ''
   },
   {
     id: 'entry-4',
@@ -111,33 +45,8 @@ export const INITIAL_JOURNAL_ENTRIES: JournalEntry[] = [
     mood: 4,
     moodEmoji: '🌟',
     moodLabel: 'Focused & Grateful',
-    tags: ['Habits', 'Gratitude', 'Health'],
-    prompts: [
-      {
-        question: 'What are you most proud of today?',
-        answer: 'My consistency with screen time limits. I feel more in control of my attention span.'
-      },
-      {
-        question: 'What is a quote or idea guiding you right now?',
-        answer: '"We do not rise to the level of our goals. We fall to the level of our systems." — James Clear'
-      }
-    ],
-    coverImage: 'https://images.unsplash.com/photo-1490730141103-6cac27aaab94?auto=format&fit=crop&w=800&q=80'
+    tags: [],
+    prompts: [],
+    coverImage: ''
   }
-];
-
-export const REFLECTION_PROMPTS: DailyReflectionPrompt[] = [
-  { id: 'p1', question: 'What went well today and what actions led to that outcome?', category: 'Gratitude' },
-  { id: 'p2', question: 'What challenge did you face today, and how did you handle it?', category: 'Resilience' },
-  { id: 'p3', question: 'What did you learn about yourself or others through today\'s interactions?', category: 'Learning' },
-  { id: 'p4', question: 'How did you align with your core values today?', category: 'Values' },
-  { id: 'p5', question: 'What is one thing you would do differently if you could relive today?', category: 'Growth' }
-];
-
-export const MOOD_DEFS = [
-  { val: 1, emoji: '🌧️', label: 'Struggling', color: 'text-rose-400 bg-rose-400/10 border-rose-400/20' },
-  { val: 2, emoji: '🌱', label: 'Growing Pains', color: 'text-amber-400 bg-amber-400/10 border-amber-400/20' },
-  { val: 3, emoji: '☁️', label: 'Reflective', color: 'text-cyan-400 bg-cyan-400/10 border-cyan-400/20' },
-  { val: 4, emoji: '✨', label: 'Balanced', color: 'text-brand-300 bg-brand-300/10 border-brand-300/20' },
-  { val: 5, emoji: '☀️', label: 'Thriving', color: 'text-emerald-400 bg-emerald-400/10 border-emerald-400/20' },
 ];
