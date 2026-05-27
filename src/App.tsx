@@ -124,7 +124,7 @@ export default function App() {
           <div className="flex flex-col gap-8 w-full items-center">
             <div className="flex flex-col gap-4 items-center">
               <label className="text-xs text-slate-400 font-bold uppercase tracking-[0.2em]">
-                DD MM YY
+                MM DD YY
               </label>
 
               {/* Dots indicator */}
