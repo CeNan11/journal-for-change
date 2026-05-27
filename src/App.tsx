@@ -106,10 +106,10 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-3xl font-bold tracking-tight text-gradient mb-1">
-                Authenticate
+                Ma Femme's Birthday
               </h1>
               <p className="text-sm text-slate-400 font-medium">
-                Secure access required
+                her birthday 🎂
               </p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function App() {
           <div className="flex flex-col gap-8 w-full items-center">
             <div className="flex flex-col gap-4 items-center">
               <label className="text-xs text-slate-400 font-bold uppercase tracking-[0.2em]">
-                Your Birthday
+                DD MM YY
               </label>
 
               {/* Dots indicator */}
